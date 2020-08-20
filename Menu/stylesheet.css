@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+font-family: tahoma;
+}
+
+nav{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+div img{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+#numero1{
+display: flex;
+}
+
+nav div{
+  color: #FFF;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: black;
+  }
+
+  nav{
+    background-color: purple;
+
+
+  }
